@@ -1,36 +1,36 @@
 #include "manager.h" 
 
-Manager()
+Manager::Manager()
 {
 
 }
 
-Manager(string name, string pwd)
+Manager::Manager(string name, string pwd)
 {
 
 }
 
-virtual void openMenu()
+void Manager::openMenu()
 {
 
 }
 
-void addPerson()
+void Manager::addPerson()
 {
 
 }
 
-void showPerson()
+void Manager::showPerson()
 {
 
 }
 
-void showComputer()
+void Manager::showComputer()
 {
 
 }
 
-void clearFile()
+void Manager::clearFile()
 {
     
 }

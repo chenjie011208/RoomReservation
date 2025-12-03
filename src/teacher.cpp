@@ -1,26 +1,26 @@
-#includ "teacher.h"
+#include "teacher.h"
 
-Teacher()
+Teacher::Teacher()
 {
 
 }
 
-Teacher(int empId, string name, string pwd)
+Teacher::Teacher(int empId, string name, string pwd)
 {
     
 }
 
-virtual void openMenu()
+void Teacher::openMenu()
 {
 
 }
 
-void showAllOrder()
+void Teacher::showAllOrder()
 {
 
 }
 
-void validOrder()
+void Teacher::validOrder()
 {
     
 }

@@ -13,7 +13,7 @@ public:
 
     virtual void openMenu(); // 菜单界面
 
-    void applyOtder(); // 申请预约
+    void applyOrder(); // 申请预约
     
     void showMyOrder(); // 查看自身预约
     
