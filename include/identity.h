@@ -12,5 +12,4 @@ public:
     string m_Pwd; // 密码
     
 
-}
-
+};
