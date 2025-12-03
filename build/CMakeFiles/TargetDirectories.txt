@@ -1,0 +1,3 @@
+/home/nuc/my_code/RoomReservation/build/CMakeFiles/main_run.dir
+/home/nuc/my_code/RoomReservation/build/CMakeFiles/edit_cache.dir
+/home/nuc/my_code/RoomReservation/build/CMakeFiles/rebuild_cache.dir
