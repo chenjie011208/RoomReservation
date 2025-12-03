@@ -20,4 +20,4 @@ public:
 
     int m_EmpId; // 教师职工号
 
-}
+};
