@@ -35,6 +35,11 @@ int main()
 	case 3: // 管理员身份
 	    break;
 	case 0: // 退出系统
+	    cout << "欢迎下一次使用" << endl;
+	    cin.clear();
+	    cin.ignore(1024, '\n');
+	    system("bash -c \"read -n 1 -s -p '按任意键继续...'\"");
+	    return 0;
 	    break;
 	default:
 	    cout << "输入有误，请重新原则" << endl;
@@ -49,5 +54,8 @@ int main()
 
 
     }
+    cin.clear();
+    cin.ignore(1024, '\n');
+    system("bash -c \"read -n 1 -s -p '按任意键继续...'\"");
     return 0;
 }
