@@ -9,7 +9,7 @@ int main()
     {
         
     
-    cout << "==================== 欢迎来到传智机房预约系统 ====================" << endl;
+    cout << "==================== 欢迎来到工大机房预约系统 ====================" << endl;
     cout << endl << "请输入您的身份" << endl;
     cout << "\t\t ----------------------------------------\n";
     cout << "\t\t|                                        |\n";
@@ -42,11 +42,11 @@ int main()
 	    return 0;
 	    break;
 	default:
-	    cout << "输入有误，请重新原则" << endl;
+	    cout << "输入有误，请重新选择" << endl;
 	    cin.clear();
 	    cin.ignore(1024, '\n');
 	    system("bash -c \"read -n 1 -s -p '按任意键继续...'\"");
-            system("clear");
+        system("clear");
 	    break;
     
     
