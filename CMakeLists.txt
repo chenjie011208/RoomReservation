@@ -4,4 +4,4 @@ project(RoomReservation)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-add_executable(main_run src/main.cpp src/student.cpp)
+add_executable(main_run src/main.cpp src/student.cpp src/teacher.cpp)

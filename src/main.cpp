@@ -5,6 +5,7 @@ using namespace std;
 #include <string>
 #include "globalFile.h"
 #include "student.h"
+#include "teacher.h"
 
 // 登录功能 参数1 操作文件名 参数2 操作身份类型
 void LoginIn(string fileName, int type)
@@ -72,6 +73,24 @@ void LoginIn(string fileName, int type)
     else if (type == 2)
     {
         // 教师身份验证
+        int fId;
+        string fName;
+        string fPwd;
+        while (ifs >> fId && ifs >> fName && ifs >> fPwd)
+        {
+            if (id == fId && name == fName && pwd == fPwd)
+            {
+                cout << "教师验证登录成功" << endl;
+                cin.clear();
+                cin.ignore(1024, '\n');
+                system("bash -c \"read -n 1 -s -p '按任意键继续...'\"");
+                system("clear");
+                person = new Teacher(id, name, pwd);
+                return;
+            }
+
+
+        }
     }
     else if (type == 3)
     {
