@@ -21,6 +21,6 @@ public:
     
     void cancelOrder(); // 取消预约
 
-    int m_ID; // 学生学号
+    int m_Id; // 学生学号
 
 };
